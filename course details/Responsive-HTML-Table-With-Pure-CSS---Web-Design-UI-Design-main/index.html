@@ -1,0 +1,290 @@
+<!-- 
+Responsive HTML Table With Pure CSS - Web Design/UI Design
+
+Code written by:
+👨🏻‍⚕️ Coding Design (Jeet Saru)
+
+> You can do whatever you want with the code. However if you love my content, you can **SUBSCRIBED** my YouTube Channel.
+
+🌎link: www.youtube.com/codingdesign 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Convert | Export html Table to CSV & EXCEL File</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1>Customer's Orders</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                <img src="images/search.png" alt="">
+            </div>
+            <div class="export__file">
+                <label for="export-file" class="export__file-btn" title="Export File"></label>
+                <input type="checkbox" id="export-file">
+                <div class="export__file-options">
+                    <label>Export As &nbsp; &#10140;</label>
+                    <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                    <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                    <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                    <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                </div>
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Course No: <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Course Name <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Duration <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Fees <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="center"> 1 </td>
+                        <td><a href="#"> Diploma In Computer Operating</a></td>
+                        <td> 3 Months</td>
+                        <td> 3200/-</td>
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td><a href="#"> Diploma In Advanced Excel</a></td>
+                        <td> 2 Months</td>
+                        <td> 3500/-</td>
+                    </tr>
+                    <tr>
+                        <td> 3 </td>
+                        <td><a href="#"> Diploma In Advance Computer Operating</a></td>
+                        <td> 4 Months</td>
+                        <td> 5700/-</td>
+                    </tr>
+                    <tr>
+                        <td> 4 </td>
+                        <td><a href="#"> Diploma In Desktop Publication (DTP) </a></td>
+                        <td> 3 Months</td>
+                        <td> 4900/-</td>
+                    </tr>
+                    <tr>
+                        <td> 5 </td>
+                        <td><a href="#"> Diploma In Advance Graphic Design </a></td>
+                        <td> 6 Months</td>
+                        <td> 7500/-</td>
+                    </tr>
+                    <tr>
+                        <td> 6 </td>
+                        <td><a href="#"> Diploma In Office Automation </a></td>
+                        <td> 6 Months</td>
+                        <td> 8500/-</td>
+                    </tr>
+                    <tr>
+                        <td> 7 </td>
+                        <td><a href="#"> MS-CIT</a></td>
+                        <td> 3 Months</td>
+                        <td> 5000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 8 </td>
+                        <td><a href="#"> Master Diploma In Finance & Advance Accounting Tally</a></td>
+                        <td> 6 Months</td>
+                        <td> 9999/-</td>
+                    </tr>
+                    <tr>
+                        <td> 9 </td>
+                        <td><a href="#"> Diploma In Web Designing </a></td>
+                        <td> 4 Months</td>
+                        <td> 7000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 10 </td>
+                        <td><a href="#"> Diploma In Advanced Account Tally </a></td>
+                        <td> 3 Months</td>
+                        <td> 4900/-</td>
+                    </tr>
+                    <tr>
+                        <td> 11 </td>
+                        <td><a href="#"> Diploma In Computer Aided Drafting And Designing </a></td>
+                        <td> 2 Months</td>
+                        <td> 4700/-</td>
+                    </tr>
+                    <tr>
+                        <td> 12 </td>
+                        <td><a href="#"> Master Diploma In 3D Architecture / Interior Designing </a></td>
+                        <td> 9 Months</td>
+                        <td> 19500/-</td>
+                    </tr>
+                    <tr>
+                        <td> 13 </td>
+                        <td><a href="#"> Diploma In Digital Marketing </a></td>
+                        <td> 6 Months</td>
+                        <td> 8000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 14 </td>
+                        <td><a href="#"> Diploma In Computer Programming & Software Application (DCP & SA) </a></td>
+                        <td> 1 Year</td>
+                        <td> 24000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 15 </td>
+                        <td><a href="#"> Diploma In Computer Software Hardware & Network Engineering </a></td>
+                        <td> 1.5 Years</td>
+                        <td> 30000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 16 </td>
+                        <td><a href="#"> Master Diploma in Computer Engineering </a></td>
+                        <td> 2 Years</td>
+                        <td> 36000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 17 </td>
+                        <td><a href="#"> Master Diploma In .Net </a></td>
+                        <td> 9 Months</td>
+                        <td> 20000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 18 </td>
+                        <td><a href="#"> Master Diploma In MERN Stack </a></td>
+                        <td> 9 Months</td>
+                        <td> 20000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 19 </td>
+                        <td><a href="#"> Diploma In Python Technology </a></td>
+                        <td> 6 Months</td>
+                        <td> 20000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 20 </td>
+                        <td><a href="#"> Diploma In Software Development </a></td>
+                        <td> 3 Months</td>
+                        <td> 9000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 21 </td>
+                        <td><a href="#"> Master Diploma In JAVA Development </a></td>
+                        <td> 9 Months</td>
+                        <td> 20000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 22 </td>
+                        <td><a href="#"> Diploma In Advance Data Structure & Algorithms (DSA) </a></td>
+                        <td> 6 Months</td>
+                        <td> 8999/-</td>
+                    </tr>
+                    <tr>
+                        <td> 23 </td>
+                        <td><a href="#"> Programming Languages </a></td>
+                        <td> - </td>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td> 24 </td>
+                        <td><a href="#"> Diploma In Advanced Laptop Repairing </a></td>
+                        <td> 3 Months</td>
+                        <td> 5500/-</td>
+                    </tr>
+                    <tr>
+                        <td> 25 </td>
+                        <td><a href="#"> Diploma In Android App Development </a></td>
+                        <td> 6 Months</td>
+                        <td> 12000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 26 </td>
+                        <td><a href="#"> Diploma In Software Testing </a></td>
+                        <td> 3 Months</td>
+                        <td> 5999/-</td>
+                    </tr>
+                    <tr>
+                        <td> 27 </td>
+                        <td><a href="#"> Master Diploma In Animation And Multimedia </a></td>
+                        <td> 2 Years</td>
+                        <td> 110000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 28 </td>
+                        <td><a href="#"> 11th & 12th IT Syllabus (Science/Commerce) </a></td>
+                        <td> 3 Months</td>
+                        <td> 3500/-</td>
+                    </tr>
+                    <tr>
+                        <td> 29</td>
+                        <td><a href="#"> IT Syllabus For B.Com./ B.Sc.IT/ BCA/ MCA </a></td>
+                        <td> -</td>
+                        <td> -</td>
+                    </tr>
+                    <tr>
+                        <td> 30</td>
+                        <td><a href="#"> Diploma In 3Ds MAX Animation</a></td>
+                        <td> 9 Months</td>
+                        <td> 35000/- </td>
+                    </tr>
+                    <tr>
+                        <td> 31</td>
+                        <td><a href="#"> Diploma In Computer Hardware & Network Engineering (A+ / N+) </a></td>
+                        <td> 4 Months</td>
+                        <td> 8500/-</td>
+                    </tr>
+                    <tr>
+                        <td> 32</td>
+                        <td><a href="#"> Diploma In Advanced Networking</a></td>
+                        <td> 3 Months</td>
+                        <td> 12000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 33 </td>
+                        <td><a href="#"> Diploma In Advanced Server</a></td>
+                        <td> 3 Month </td>
+                        <td> 12000/- </td>
+                    </tr>
+                    <tr>
+                        <td> 34 </td>
+                        <td><a href="#"> Diploma In LINUX Operating System</a></td>
+                        <td> 3 Month </td>
+                        <td> 4500/- </td>
+                    </tr>
+                    <tr>
+                        <td> 35 </td>
+                        <td><a href="#"> Hybrid System Administrator</a></td>
+                        <td> 200 Hours </td>
+                        <td> 35000/-</td>
+                    </tr>
+                    <tr>
+                        <td> 36 </td>
+                        <td><a href="#"> Azure Cloud Fundamental & Administration</a></td>
+                        <td> 60 Hours </td>
+                        <td> 15000/- </td>
+                    </tr>
+                    <tr>
+                        <td> 37 </td>
+                        <td><a href="#"> Diploma In Advanced Moile Repairing </a></td>
+                        <td> 3 Month </td>
+                        <td> 7999/- </td>
+                    </tr>
+                    <tr>
+                        <td> 38 </td>
+                        <td><a href="#"> Certificate In Spoken English & Personality Development (CSEPD)</a></td>
+                        <td> 1 Year </td>
+                        <td> 6000/- </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
